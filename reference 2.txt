@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+    int num = 407,i;
+    
+    if(num>1)
+    {
+        for(i=2;i<num;i++)
+        {
+            if(num%i == 0)
+            
+            {
+                printf("(%d, 'is not a prime number' )",num);
+                printf("(%d, 'times' %d 'is', %d)",i,num/i,num);
+                break;
+                
+            }
+        
+        }
+        
+    }
+}
